@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>Welcome to the AI Spanish Generator</h1>
     </header>
@@ -19,11 +20,12 @@
             autofocus
             required
             autocomplete="off"
+            class="instructions"
             />
-            <input type="submit" />
+            <input type="submit" class="submit-button" />
         </form>
-        <div>
-           Estoy enamorada de ti 
+        <div class="poem">
+            Estoy enamorada de ti 
             <br />
             No hace falta ni decirlo
         </div>
@@ -37,6 +39,7 @@
         target="_blank">open-sourced on GitHub</a>
         and is hosted by <a href="https://ai-spanish-generator.netlify.app/" target="_blank">Netlify</a>
     </footer>
+    </div>
 <script src="src/index.js"></script>
 </body>
 </html>
